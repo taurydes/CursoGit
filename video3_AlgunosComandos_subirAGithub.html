@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Git</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+<body>
+    <section>
+        <h1>Proyecto Empresarial </h1>
+        <p>Aplicando los Cambios para ver Modificado en Gif</p>
+    </section>
+</body>
+</html>
+<!--
+    Lo primero es crear un Directorio para que GIT Haga un seguimiento de los archivos el primer Ccomando sería
+°git init(se ejecuta solo una vez, es para llevar el seguimiento, se usa normalmente al comenzar el project)
+    -Esto crea dos Áreas: Area de ensayo(stating area), permite ver los archivos sin haberlos guardados en el repositorio local
+                          Repositorio local
+°git add: se usa para hacerle seguimiento a uno  o varios archivos en especifico
+°git commit: comando para llevar del area del ensayo al repositorio local 
+
+git bash es la consola de git 
+
+con el clic derecho podemos abrir las opciones y abrir la consola en el directorio que queriamos
+
+comandos: 
+git status -s (muestra los archivos nuevos que no estan en seguimiento)los muestra con signos de interrogación
+ luego de aplicar el git ADD los muestra con una A al lado quiere decir que está en el area de ensayo
+para llevar del area de ensayo al repositorio haremos un commit, se puede agregar una descripción para estar al tanto lo que se haya guardado
+git commit -m "Comienzo del proyecto"
+
+
+°Para ver el listado de los commit que he realizado usamos el siguiente comando
+git log --oneline
+
+°Para restaurar a una versión anterior
+git reset --hard(codigo de la version que queremos volver)
+hay que estar pendiente con este retorno xq borra las versiones que tenía hasta este punto 
+
+con git add . aplicamos llevar a todos los archivos al area de ensayo 
+
+cuando tengo un AM es que tengo archivos que ya estaban en el area de ensayo y se han modificado 
+para agregar los archivos que estan modificados del area de ensayo y pasarlos al repositorio local  podemos combinar los comandos que quedaría así 
+git commit -am "parrafo y Tamaño Fuente agregue color azul"
+
+-->
